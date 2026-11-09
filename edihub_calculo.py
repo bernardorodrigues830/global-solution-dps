@@ -10,14 +10,6 @@ Equipe:
 
 Modelo:  A(t) = t^4 · e^(-t/7)      (acessos por dia ao edital)
          t = dias desde a abertura das inscrições (prazo fecha no dia 30)
-
-Como usar:
-    1) python edihub_calculo.py
-       -> mostra a análise no terminal e gera o arquivo index.html
-    2) Suba a pasta com o index.html na Vercel (arrastar e soltar ou `vercel deploy`).
-
-Só usa a biblioteca padrão do Python (math e json). O gráfico é desenhado
-no navegador com Plotly.js, a partir dos números calculados aqui.
 """
 
 import json
